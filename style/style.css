@@ -1,0 +1,119 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url("/img/background.jpg");
+    height: 1000px;
+  }
+ 
+  .left {
+    left: 43px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    top: 16px;
+    position: absolute;
+  }
+  .left img{
+    width:  100px;
+    /* height: 30px; */
+    filter: invert(80%);
+  }
+  .left div{
+    font-family: 'Teko', sans-serif;
+    color: goldenrod;
+    font-weight: bold;
+    text-align: center;
+   
+    
+  }
+  .mid {
+   
+    display: block;
+    margin: 20px auto;
+    width: 35%;
+    /* border: 2px solid red; */
+  }
+  .right {
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 34px;
+    display: inline-block;
+    top: 30px;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+    font-size: 20px;
+  }
+  .navbar li a {
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    color: goldenrod;
+    padding: 15px;
+    /* padding: 30px 20px; */
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+
+    text-decoration: underline;
+    color: gray;
+  }
+  .btn{
+    font-family: 'Teko', sans-serif;
+    font-size: 15px;
+    margin: 0px 9px;
+    background-color: black;
+    color: aliceblue;
+    padding: 4px 21px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: gray;
+    color: aqua;
+  }
+.container{
+border: 2px solid goldenrod;
+width: 40%;
+margin: 70px 50px;
+padding: 40px 40px;
+color: aliceblue;
+border-radius: 20px;
+
+}
+h1{
+color: black;
+font-weight: bold;
+}
+ .formGroup input{
+    text-align: center;
+color: gray;
+margin: 5px auto;
+padding: 8px;
+border: 2px solid gold;
+width: 80%;
+display: block;
+font-size: 20px;
+border-radius: 15px;
+font-family: 'Teko', sans-serif;
+ } 
+ .container h1{
+    text-align: center;
+    background-color: goldenrod;
+    border-radius: 5px;
+ }
+ .container button{
+    color: black;
+font-weight: bolder;
+font-size: larger;
+display: block;
+width: 84%;
+height: 60px;
+margin: 20px auto;
+background-color: goldenrod;
+ }
+ .container button:hover{
+    color: brown;
+ }
